@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "datasmith-pg",
+  "owner": {
+    "name": "Gabriel Voicu"
+  },
+  "plugins": [
+    {
+      "name": "datasmith-pg",
+      "source": "./",
+      "description": "SQL database architect for PostgreSQL-first systems. Designs production-grade schemas, reviews and optimizes existing schemas, writes complex SQL and Flyway migrations, and advises on normalization, indexing, and multi-tenancy.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Gabriel Voicu"
+      },
+      "license": "MIT",
+      "keywords": ["postgresql", "database", "schema", "sql", "migrations", "flyway"],
+      "category": "development"
+    }
+  ]
+}

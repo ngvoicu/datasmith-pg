@@ -1,0 +1,20 @@
+{
+  "name": "datasmith-pg",
+  "version": "0.1.0",
+  "description": "SQL database architect for PostgreSQL-first systems. Designs production-grade schemas, reviews and optimizes existing schemas, writes complex SQL and Flyway migrations, and advises on normalization, indexing, and multi-tenancy.",
+  "author": {
+    "name": "Gabriel Voicu"
+  },
+  "license": "MIT",
+  "keywords": [
+    "postgresql",
+    "database",
+    "schema",
+    "sql",
+    "migrations",
+    "flyway",
+    "normalization",
+    "indexing",
+    "multi-tenancy"
+  ]
+}
