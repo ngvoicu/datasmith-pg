@@ -354,7 +354,7 @@ The skill is pure markdown. Any tool that can read files can use it:
 - **Gemini CLI**: Skill via `npx skills add`
 - **Humans**: Readable and editable in any text editor
 
-To configure another tool, run `npx skills add ngvoicu/datasmith -a <tool>`.
+To configure another tool, run `npx skills add ngvoicu/datasmith-pg -a <tool>`.
 
 ---
 

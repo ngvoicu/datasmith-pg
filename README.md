@@ -84,13 +84,13 @@ Full plugin with SKILL.md auto-triggers and all reference documentation.
 
 ```bash
 # In Claude Code, run:
-/plugin marketplace add ngvoicu/datasmith
+/plugin marketplace add ngvoicu/datasmith-pg
 /plugin install datasmith-pg
 ```
 
 Or manually:
 ```bash
-git clone https://github.com/ngvoicu/datasmith.git ~/.claude/plugins/datasmith
+git clone https://github.com/ngvoicu/datasmith-pg.git ~/.claude/plugins/datasmith-pg
 ```
 
 After install, just describe your schema needs:
@@ -106,22 +106,22 @@ Installs the SKILL.md into your tool's skill/instruction directory.
 
 ```bash
 # Claude Code (skill only — auto-triggers)
-npx skills add ngvoicu/datasmith -a claude-code
+npx skills add ngvoicu/datasmith-pg -a claude-code
 
 # OpenAI Codex
-npx skills add ngvoicu/datasmith -a codex
+npx skills add ngvoicu/datasmith-pg -a codex
 
 # Cursor
-npx skills add ngvoicu/datasmith -a cursor
+npx skills add ngvoicu/datasmith-pg -a cursor
 
 # Windsurf
-npx skills add ngvoicu/datasmith -a windsurf
+npx skills add ngvoicu/datasmith-pg -a windsurf
 
 # Cline
-npx skills add ngvoicu/datasmith -a cline
+npx skills add ngvoicu/datasmith-pg -a cline
 
 # Gemini CLI
-npx skills add ngvoicu/datasmith -a gemini
+npx skills add ngvoicu/datasmith-pg -a gemini
 ```
 
 ### Comparison: Plugin vs npx
@@ -221,7 +221,7 @@ updated_at  TIMESTAMPTZ NOT NULL DEFAULT now()
 The skill is pure markdown. Claude Code, Codex, Cursor, Windsurf, Cline, and Gemini CLI all benefit from the same PostgreSQL expertise.
 
 ```bash
-npx skills add ngvoicu/datasmith -a <tool>
+npx skills add ngvoicu/datasmith-pg -a <tool>
 ```
 
 ## Project Structure
