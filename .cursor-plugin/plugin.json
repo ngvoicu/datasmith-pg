@@ -1,0 +1,11 @@
+{
+  "name": "datasmith-pg",
+  "displayName": "Datasmith PG",
+  "description": "SQL database architect for PostgreSQL-first systems",
+  "version": "0.1.0",
+  "author": {
+    "name": "Gabriel Voicu"
+  },
+  "license": "MIT",
+  "skills": "./skills/"
+}
