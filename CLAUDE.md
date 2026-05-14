@@ -7,6 +7,13 @@ Data Smith is a Claude Code plugin that provides expert PostgreSQL database arch
 1. **Plugin layer** — Markdown-based Claude Code plugin (skill + reference docs)
 2. **Skill layer** — Universal SKILL.md that works with any AI coding tool via `npx skills add`
 
+## Knowledge base
+
+This repo currently has no neurons in the **ngvoicu-sme** brain. As you learn things worth keeping (plugin distribution decisions, schema-design patterns adopted by consuming projects, eval results), capture them via kluris (never edit brain files by hand — the skill enforces an approval protocol):
+
+- `/kluris-ngvoicu-sme` — Claude Code skill (search, learn, remember, create)
+- `kluris search "<query>" --brain ngvoicu-sme` — direct search
+
 ## Repository Structure
 
 ```
